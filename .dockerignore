@@ -1,0 +1,9 @@
+# Excluded because it should be created after npm install inside of the container
+/node_modules
+# Excluded because it should be created after npm build inside of the container
+/dist
+# Excluded because it's not needed for app in production
+/test
+/.elasticbeanstalk/*
+/.ebextenstions/*
+/.git
